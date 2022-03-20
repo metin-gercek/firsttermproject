@@ -33,13 +33,17 @@ p{
 }
 h1{
     font-size: 3.2rem;
-    color: var(--title-color);
+    color: var(--bg2-color);
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    background-color: var(--title-color);
+    margin-top: -2px;
 }
 h2{}
-img{}
+img{
+    max-width: 100%;
+}
 button{}
 
 /* CONTAINER */

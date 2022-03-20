@@ -140,11 +140,15 @@ div.video_container > video {
 }
 
 #contactflex{
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
   align-content: center;
   justify-content: space-around;
+  background-color: #fff;
+  padding: 1.5rem;
+  color: #707070;
+  line-height: 150%;
 }
 
 #contactflex >*{
@@ -152,10 +156,13 @@ div.video_container > video {
   flex-basis: 100%;
   margin: 1rem;
   padding: 1rem;
+  
 }
 
 #map{
   display: none;
+  border: #b02586 1px solid;
+  border-radius: 10px;
 }
 
 #infotable tr >*{
@@ -168,6 +175,8 @@ div.video_container > video {
   text-decoration: underline dotted var(--title-color);
 }
 
+
+
 /* FOOTER */
 
 .footer {
@@ -175,7 +184,7 @@ div.video_container > video {
   margin: auto;
   background-color: var(--footer-color);
   text-align: center;
-  margin-top:40px;
+  /* margin-top:40px; */
 }
 .footer .fa {
   font-size: 3rem;
